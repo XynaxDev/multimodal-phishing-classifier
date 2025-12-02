@@ -1,42 +1,63 @@
 # Contributing
 
-Thanks for your interest in contributing to the Multimodal Phishing Detector project! The following notes explain how to contribute code, open issues, and submit pull requests.
+Thanks for your interest in contributing! Here's how to get started.
 
-## `Getting started`
-- Fork the repository and create a feature branch from `main`:
-  - `git checkout -b feature/my-feature`
-- Keep your branch focused on a single change.
+## Getting Started
 
-## `Code style`
-- Python: follow PEP8. Use `black` and `flake8` if available.
-- JavaScript/React: follow project linting rules; keep components small and well-documented.
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Keep changes focused on a single improvement
 
-## `Commit messages`
-- Use clear, imperative commit messages. Example: `feat: add URL classifier wrapper` or `fix: handle missing image file`.
+## Code Guidelines
 
-## `Pull requests`
-- Open a PR against the `main` branch.
-- Include a short description of what the change does, why it’s needed, and any relevant files changed.
-- If your change affects model artifacts or dataset expectations, include instructions for reproducing or testing.
+**Python:**
+- Follow PEP8 standards
+- Use `black` and `isort` for formatting
+- Run `flake8` for linting
 
-## `Testing`
-- Make sure new code is covered by tests where applicable.
-- Run local tests (the repository has local test scripts under `test/`) before submitting.
+**JavaScript/React:**
+- Follow existing code style
+- Keep components small and focused
+- Add comments for complex logic
 
-## `Model and data contributions`
-- Do NOT commit large model weights or datasets directly to the repo. Use one of the following workflows:
-  - Host large artifacts on cloud storage (S3, Azure Blob) and add a small script to download them.
-  - Use Git LFS for model weights (if maintainers opt in).
+## Commit Messages
 
-## `Security and sensitive data`
-- Do NOT include API keys, credentials, or other sensitive information in commits.
-- If you discover a security issue, please open a private issue and contact the maintainer instead of posting it publicly.
+Use clear, descriptive commits:
+- `feat: add new feature`
+- `fix: resolve bug`
+- `docs: update documentation`
+- `refactor: improve code structure`
 
-## `Roadmap and issues`
-- Use GitHub Issues to report bugs or request features.
-- Provide steps to reproduce and minimal examples when possible.
+## Pull Requests
 
-## `Code of conduct`
-- Be respectful and collaborative. If you'd like, add a reference to a formal code of conduct.
+1. Open PR against `main` branch
+2. Describe what changed and why
+3. Link related issues if applicable
+4. Ensure all tests pass
 
-> **Thank you for contributing we appreciate your help!**
+## Testing
+
+- Add tests for new features
+- Run existing tests before submitting
+- Verify models work if changes affect ML code
+
+## Important Rules
+
+**DO NOT commit:**
+- Model weights or large files (use Git LFS or cloud storage)
+- Datasets or training data
+- API keys or credentials
+- `.env` files with secrets
+
+**Security:**
+If you find a security issue, please report it privately via GitHub issues rather than publicly.
+
+## Questions?
+
+- Open an issue for bugs or feature requests
+- Provide steps to reproduce when reporting bugs
+- Be respectful and collaborative
+
+---
+
+**Thank you for contributing!**
