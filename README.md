@@ -2,6 +2,9 @@
 
   <img src="./frontend/public/frontend.png" alt="App preview" width="640" style="max-width:100%;border-radius:8px;"/>
 
+  <br>
+
+  <h1>Multimodal Phishing Detector</h1>
   <p>
     <img alt="Build" src="https://img.shields.io/badge/build-passing-brightgreen">
     <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue">
@@ -11,9 +14,8 @@
     <img alt="Transformers" src="https://img.shields.io/badge/Transformers-HF-yellow?logo=huggingface&logoColor=black">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
   </p>
-
-  <h1>Multimodal Phishing Detector</h1>
   <p><em>Advanced phishing detection using screenshots, message text, and URLs — powered by BERT, DistilBERT, ResNet50 & OCR</em></p>
+
 </div>
 
 
