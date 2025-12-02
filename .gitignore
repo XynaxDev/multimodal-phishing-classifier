@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.Python
+env/
+.env
+.venv
+venv/
+phishingenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.tox/
+.hypothesis/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Data directories - ALL variations
+data/
+/data/
+**/data/
+raw/
+/raw/
+**/raw/
+url_raw/
+/url_raw/
+**/url_raw/
+url_dataset/
+/url_dataset/
+**/url_dataset/
+
+# Models - ALL variations (THIS IS KEY)
+models/
+/models/
+**/models/
+backend/models/
+backend/models/**
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# Training artifacts
+runs/
+/runs/
+**/runs/
+checkpoints/
+/checkpoints/
+**/checkpoints/
+wandb/
+mlruns/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+frontend/.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets.*
+*.key
+*.pem
+
+# Test directory
+test/
+/test/
+**/test/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.pyc
+*.pyo

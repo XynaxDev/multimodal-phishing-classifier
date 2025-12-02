@@ -1,0 +1,16 @@
+# requirements.txt
+fastapi
+uvicorn[standard]
+transformers
+datasets
+sentence-transformers
+torch
+torchvision
+timm
+Pillow
+scikit-learn
+joblib
+pandas
+numpy
+evaluate
+requests
